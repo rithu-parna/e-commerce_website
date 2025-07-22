@@ -15,28 +15,28 @@ const pages = {
   icon: icons.IconKey,
   type: 'group',
   children: [
-    {
-      id: 'authentication',
-      title: 'Authentication',
-      type: 'collapse',
-      icon: icons.IconKey,
-      children: [
-        {
-          id: 'login',
-          title: 'login',
-          type: 'item',
-          url: '/pages/login',
-          target: true
-        },
-        {
-          id: 'register',
-          title: 'register',
-          type: 'item',
-          url: '/pages/register',
-          target: true
-        }
-      ]
-    }
+    // {
+    //   id: 'authentication',
+    //   title: 'Authentication',
+    //   type: 'collapse',
+    //   icon: icons.IconKey,
+    //   children: [
+    //     {
+    //       id: 'login',
+    //       title: 'login',
+    //       type: 'item',
+    //       url: '/pages/login',
+    //       target: true
+    //     },
+    //     {
+    //       id: 'register',
+    //       title: 'register',
+    //       type: 'item',
+    //       url: '/pages/register',
+    //       target: true
+    //     }
+    //   ]
+    // }
   ]
 };
 

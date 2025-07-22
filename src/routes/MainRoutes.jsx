@@ -1,19 +1,19 @@
-import { lazy } from 'react';
+// import { lazy } from 'react';
 
 // project imports
 import MainLayout from 'layout/MainLayout';
-import Loadable from 'ui-component/Loadable';
+// import Loadable from 'ui-component/Loadable';
 
 // dashboard routing
-const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
+// const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
 
 // utilities routing
-const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
-const UtilsColor = Loadable(lazy(() => import('views/utilities/Color')));
-const UtilsShadow = Loadable(lazy(() => import('views/utilities/Shadow')));
+// const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
+// const UtilsColor = Loadable(lazy(() => import('views/utilities/Color')));
+// const UtilsShadow = Loadable(lazy(() => import('views/utilities/Shadow')));
 
 // sample page routing
-const SamplePage = Loadable(lazy(() => import('views/sample-page')));
+// const SamplePage = Loadable(lazy(() => import('views/sample-page')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -23,32 +23,32 @@ const MainRoutes = {
   children: [
     {
       path: '/',
-      element: <DashboardDefault />
+      // element: <DashboardDefault />
     },
     {
       path: 'dashboard',
       children: [
         {
           path: 'default',
-          element: <DashboardDefault />
+          // element: <DashboardDefault />
         }
       ]
     },
     {
       path: 'typography',
-      element: <UtilsTypography />
+      // element: <UtilsTypography />
     },
     {
       path: 'color',
-      element: <UtilsColor />
+      // element: <UtilsColor />
     },
     {
       path: 'shadow',
-      element: <UtilsShadow />
+      // element: <UtilsShadow />
     },
     {
       path: '/sample-page',
-      element: <SamplePage />
+      // element: <SamplePage />
     }
   ]
 };
