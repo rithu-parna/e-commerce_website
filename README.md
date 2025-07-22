@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Website
 
-A modern, responsive e-commerce web application built using **Vite + React**, **Material-UI**, and **Tailwind CSS**. This project showcases a user-friendly shopping experience with clean design, dynamic product listing, and responsive layout.
+A modern, responsive e-commerce web application built using **Vite + React**,and **Material-UI**. This project showcases a user-friendly shopping experience with clean design, dynamic product listing, and responsive layout.
 
 ---
 
@@ -21,7 +21,6 @@ A modern, responsive e-commerce web application built using **Vite + React**, **
 |--------------|---------------------------------------|
 | React        | Frontend UI framework                 |
 | Vite         | Fast bundler & dev server             |
-| Tailwind CSS | Utility-first styling for layout      |
 | Material UI  | Pre-built components (buttons, cards) |
 | React Router | Client-side routing                   |
 
