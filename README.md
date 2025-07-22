@@ -39,3 +39,16 @@ e-commerce-website/
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
+
+
+
+
+# Clone the repository
+git clone https://github.com/rithu-parna/e-commerce_website.git
+cd e-commerce_website
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
