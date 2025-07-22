@@ -28,18 +28,18 @@ A modern, responsive e-commerce web application built using **Vite + React**, **
 ---
 
 ## 📁 Folder Structure
-
+```
 e-commerce-website/
 ├── public/
 ├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── assets/
-│ └── App.jsx
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── App.jsx
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
-
+```
 
 
 
