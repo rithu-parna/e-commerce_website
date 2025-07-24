@@ -4,8 +4,8 @@ import { Outlet } from 'react-router-dom';
 // material-ui
 // import { useTheme } from '@mui/material/styles';
 // import useMediaQuery from '@mui/material/useMediaQuery';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
+// import AppBar from '@mui/material/AppBar';
+// import Toolbar from '@mui/material/Toolbar';
 import Box from '@mui/material/Box';
 
 // project imports
@@ -43,19 +43,19 @@ export default function MainLayout() {
   // if (menuMasterLoading) return <Loader />;
 
   return (
-    <Box>
+    <Box sx={{ marginTop: '20px', minHeight: 'calc(100vh - 128px)'}}>
       {' '}
       {/* header */}
-      <AppBar enableColorOnDark position="fixed" color="inherit" elevation={0} sx={{ bgcolor: 'background.default' }}>
-        <Toolbar sx={{ p: 2 }}>
+      {/* <AppBar enableColorOnDark position="fixed" color="inherit" elevation={0} sx={{ bgcolor: 'background.default' }}>
+        <Toolbar sx={{ p: 2 }}> */}
           <Header />
-        </Toolbar>
-      </AppBar>
+        {/* </Toolbar>
+      </AppBar> */}
       {/* menu / drawer */}
       {/* <Sidebar /> */}
       {/* main content */}
       {/* <MainContentStyled {...{ borderRadius, open: drawerOpen }}> */}
-      <Box sx={{ ...{ px: { xs: 0 } }, marginTop: '200px', minHeight: 'calc(100vh - 128px)', display: 'flex', flexDirection: 'column' }}>
+      <Box sx={{ ...{ px: { xs: 0 } }, display: 'flex', flexDirection: 'column' }}>
         {/* breadcrumb */}
         <Breadcrumbs />
         <Outlet />

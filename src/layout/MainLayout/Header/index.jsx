@@ -195,7 +195,7 @@ export default function Header() {
               scrollbarWidth: 'none',
               '&::-webkit-scrollbar': { display: 'none' },
               width: '100%',
-              px: isMobile ? 5 : 0
+              px: isMobile ? 2 : 0
             }}
           >
             {navItems.map((label) =>
