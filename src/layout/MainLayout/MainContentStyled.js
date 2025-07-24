@@ -14,9 +14,8 @@ const MainContentStyled = styled('main', {
   width: '100%',
   minHeight: 'calc(100vh - 88px)',
   flexGrow: 1,
-  padding: 20,
-  marginTop: 88,
-  marginRight: 0,
+  // paddingTop: 50,
+  // marginTop: 88,
   borderRadius: `${borderRadius}px`,
   borderBottomLeftRadius: 0,
   borderBottomRightRadius: 0,
@@ -53,7 +52,7 @@ const MainContentStyled = styled('main', {
   },
   [theme.breakpoints.down('sm')]: {
     marginLeft: 10,
-    marginRight: 10
+    marginRight: 0
   }
 }));
 

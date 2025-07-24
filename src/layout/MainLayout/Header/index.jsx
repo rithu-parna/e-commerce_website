@@ -40,7 +40,7 @@ import CheckroomIcon from '@mui/icons-material/Checkroom';
 import ShowerIcon from '@mui/icons-material/Shower';
 import FaceIcon from '@mui/icons-material/Face';
 import ChildCareIcon from '@mui/icons-material/ChildCare';
-import LandingPage from '../../../views/landingPage/index';
+// import LandingPage from '../../../views/landingPage/index';
 // import ProfileSection from './ProfileSection';
 // import NotificationSection from './NotificationSection';
 
@@ -122,7 +122,7 @@ export default function Header() {
                 defaultValue="All Categories"
                 variant="standard"
                 disableUnderline
-                sx={{ fontSize: 14, minWidth: 120, pl: 2,minHeight:50 }}
+                sx={{ fontSize: 14, minWidth: 120, pl: 2, minHeight: 50 }}
                 IconComponent={ArrowDropDownIcon}
               >
                 <MenuItem value="All Categories">All Categories</MenuItem>
@@ -132,7 +132,7 @@ export default function Header() {
               </Select>
               <Divider orientation="vertical" flexItem />
               <InputBase placeholder="Search Product..." sx={{ ml: 1, flex: 1 }} />
-              <IconButton sx={{ bgcolor: '#0f615ee3', color: 'white', borderRadius: 0,minHeight:50 }}>
+              <IconButton sx={{ bgcolor: '#0f615ee3', color: 'white', borderRadius: 0, minHeight: 50 }}>
                 <SearchIcon />
               </IconButton>
             </SearchWrapper>
@@ -240,7 +240,7 @@ export default function Header() {
             ))}
           </Menu>
         </Box>
-        <LandingPage />
+        
       </Box>
     </>
   );
