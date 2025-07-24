@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 // project imports
 import Footer from './Footer';
 import Header from './Header';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 import MainContentStyled from './MainContentStyled';
 // import Customization from '../Customization';
 import Loader from 'ui-component/Loader';
@@ -52,7 +52,7 @@ export default function MainLayout() {
       </AppBar>
 
       {/* menu / drawer */}
-      <Sidebar />
+      {/* <Sidebar /> */}
 
       {/* main content */}
       <MainContentStyled {...{ borderRadius, open: drawerOpen }}>
