@@ -122,7 +122,7 @@ export default function Header() {
                 defaultValue="All Categories"
                 variant="standard"
                 disableUnderline
-                sx={{ fontSize: 14, minWidth: 120, pl: 2 }}
+                sx={{ fontSize: 14, minWidth: 120, pl: 2,minHeight:50 }}
                 IconComponent={ArrowDropDownIcon}
               >
                 <MenuItem value="All Categories">All Categories</MenuItem>
@@ -132,7 +132,7 @@ export default function Header() {
               </Select>
               <Divider orientation="vertical" flexItem />
               <InputBase placeholder="Search Product..." sx={{ ml: 1, flex: 1 }} />
-              <IconButton sx={{ bgcolor: '#0f615ee3', color: 'white', borderRadius: 0 }}>
+              <IconButton sx={{ bgcolor: '#0f615ee3', color: 'white', borderRadius: 0,minHeight:50 }}>
                 <SearchIcon />
               </IconButton>
             </SearchWrapper>
