@@ -1,6 +1,7 @@
 import { Box, Typography, Button, useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import MarketCategory from './components/marketCategory';
+import Product from './components/productSEction'
 
 const BannerSection = () => {
   const theme = useTheme();
@@ -140,6 +141,7 @@ const BannerSection = () => {
         </Box>
       </Box>
       <MarketCategory />
+      <Product/>
     </Box>
   );
 };
